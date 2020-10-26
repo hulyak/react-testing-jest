@@ -24,7 +24,7 @@ Airbnb standards show warnings
 
 `npm test`
 
-Matchers[https://jestjs.io/docs/en/expect]
+[Matchers](https://jestjs.io/docs/en/expect)
 
 ## Snapshot testing with Jest
 
