@@ -32,9 +32,10 @@ Jest renders our component into a JSON file. And then takes a snapshot of this f
 
 `npm i react-test-renderer`
 
-`import renderer from 'react-test-renderer';`
 
 ```javascript
+import renderer from 'react-test-renderer';
+
 test('App snapshot test', () => {
 	const component = renderer.create(<App />);  // UI
 	const tree = component.toJSON(); // render this to JSON.
@@ -54,3 +55,4 @@ type `u` to update the tests
 `npm run coverage` to see the report of your tests
 
 ![test](img/test.png)
+
